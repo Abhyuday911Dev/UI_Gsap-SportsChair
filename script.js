@@ -86,3 +86,56 @@ gsap.from("#sportsleft",{
     duration:1.4,
     delay:0.7
 })
+
+
+//timeline solution
+var tl = gsap.timeline();
+
+tl
+    .to("#chotacircle2", {
+        height: 0,
+        duration: 1,
+        delay:2,
+    })
+    .from("#chotacircle2", {
+        border: 0,
+        duration: 1,
+        
+    })
+    .to("#chotacircle4", {
+        height: 0,
+        duration: 1,
+        delay:-1.5
+    
+    })
+    .from("#chotacircle4", {
+        border: 0,
+        duration: 1,
+        delay:-1.5
+
+    })
+    .to("#chotacircle3", {
+        height: 0,
+        delay:-2,
+        duration: 1,
+        
+    
+    })
+    .from("#chotacircle3", {
+        border: 0,
+        duration: 1,
+        delay:-1.5,
+    
+    })
+    .to("#chotacircle1", {
+        height: 0,
+        duration: 1,
+        delay:-1.5,
+    
+    })
+    .from("#chotacircle1", {
+        border: 0,
+        duration: 1,
+        delay:-1.5
+
+    })
