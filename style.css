@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(138, 137, 131);
+    display: flex;
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#nav {
+    height: 60px;
+    width: 0%;
+    color: rgb(240, 240, 240);
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    z-index: 5;
+}
+
+#red {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(199, 204, 179);
+    position: absolute;
+    z-index: 9;
+    left: 100%;
+}
+
+#sports {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    color: rgb(235, 235, 235);
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 40px;
+    position: absolute;
+    bottom: 0%;
+    z-index: 5;
+}
+
+#plus {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+#sportsright {
+    font-size: 30px;
+}
+
+#sportsright h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#football {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    background-color: #fff;
+
+}
+
+#football img {
+    width: 100%;
+    height: 100%;
+}
+
+#right {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(138, 137, 131);
+    position: relative;
+    overflow: hidden;
+}
+
+#ek {
+    width: 100%;
+    height: 35%;
+    display: flex;
+}
+
+#do {
+    width: 100%;
+    height: 50%;
+    padding-left: 70px;
+    display: flex;
+    position: relative;
+}
+
+#teen {
+    width: 100%;
+    height: 15%;
+    position: relative;
+}
+
+#ekleft {
+    height: 100%;
+    width: 210px;
+}
+
+#ekright {
+    height: 80%;
+    width: 170px;
+    border: solid 3px;
+    background-image: url(https://images.unsplash.com/photo-1549497538-303791108f95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1961&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#doleft {
+    height: 100%;
+    width: 220px;
+    background-color: #fff;
+    border: solid 3px;
+    background-image: url(https://images.unsplash.com/photo-1612731397462-d6c4f17cbb3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=392&q=80);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: 7;
+}
+
+#pcircle{
+    position: relative;
+    margin-left: 220px;
+}
+#circleoverlay{
+    position: absolute;
+    top: 0%;
+    height: 15vw;
+    width: 15vw;
+    margin-left: 20px;
+    z-index: 3;
+    background-color: rgb(138, 137, 131);
+}
+#circle {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    border: #333 solid 3.1px;
+    margin-left: 20px;
+    position: relative;
+}
+
+#circle h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+#teenleft {
+    width: 170px;
+    height: 140%;
+    background-color: #888;
+    border: solid 3px #222;
+    position: absolute;
+    bottom: 0%;
+    left: 65%;
+    transform: translate(-50%, 0%);
+    background-image: url(https://images.unsplash.com/photo-1574189555774-7cbcd66d0fcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGNoYWlyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+}
+
+#verticle {
+    width: 80%;
+    height: 70px;
+    font-size: 60px;
+    font-weight: 500;
+    transform-origin: 100% 105%;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 5%;
+    top: -20%;
+}
